@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "00:52:25 01/25/2018 "
+* "netlist" "firstadderdelay1.sp "
+* "runtitle" "**and adder with 10 transistors**"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ cout = 168.8853m       
++ j =  10.7177u       
++ sum = 999.9924m       
++ vcin =   0.            
++ vdd =   1.0000        
++ vx =   1.0000        
++ vy =   0.            
++ xxnor1.j1 = 239.9748m       
++ xxnor2.j1 = 999.9959m       
+***   END: Saved Operating Point ***                     

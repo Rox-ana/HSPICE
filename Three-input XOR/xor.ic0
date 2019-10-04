@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "17:29:21 10/04/2019 "
+* "netlist" "xor.sp "
+* "runtitle" "***implementation of c xor a xor b***"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   3.0000        
++ b =   3.0000        
++ c =   3.0000        
++ f =   2.9091        
++ j1 =   2.9867        
++ j2 =   2.6841        
++ j3 =   2.9794        
++ j4 =   2.6826        
++ vdd =   3.0000        
+***   END: Saved Operating Point ***                     

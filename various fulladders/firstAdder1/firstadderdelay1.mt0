@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='H-2013.03-SP2 64-BIT'
+.TITLE '**and adder with 10 transistors**'
+ tplh             tphl             td               temper            
+ alter#            
+  3.090e-11        2.605e-11        2.847e-11         25.0000         
+ 1                 

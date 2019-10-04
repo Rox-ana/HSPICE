@@ -1,0 +1,55 @@
+***** HSPICE -- H-2013.03-SP2 64-BIT (Aug 26 2013) win64 ******
+ Input File: forthadder1delay.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Roxy                 HOSTNAME: DESKTOP-S3BDAM1
+ lic: HOSTID: "704d7b45fe95 7cb0c27cd20f 7cb0c27cd20b 7cb0c27cd20c" PID:      12452
+ lic: Using FLEXlm license file:
+ lic: C:\hspice_lic\synopsys.dat
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "704d7b45fe95 7cb0c27cd20f 7cb0c27cd20b 7cb0c27cd20c"
+ lic:
+ init: begin read circuit files,  cpu clock=  5.50E-02
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\AD\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\XILINX\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\TLINE\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\TI\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\SIGNET\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\PCI\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\LIN_TECH\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\FET\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\DIO\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\COMLINE\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\BURR_BRN\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\BJT\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\AD\
+       option post =     2.00
+       option runlvl
+ init: end read circuit files,  cpu clock=  6.10E-02 peak memory=        39 mb
+ init: begin check errors,  cpu clock=  6.10E-02
+ init: end check errors,  cpu clock=  6.80E-02 peak memory=        40 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  6.80E-02
+       establish matrix -- done,  cpu clock=  6.80E-02 peak memory=        40 mb
+       re-order matrix -- done,  cpu clock=  6.80E-02 peak memory=        40 mb
+ init: end setup matrix,  cpu clock=  7.30E-02 peak memory=        40 mb
+ dcop: begin dcop,  cpu clock=  7.30E-02
+ dcop: end dcop,  cpu clock=  7.80E-02 peak memory=        40 mb  tot_iter=       9
+ output: forthadder1delay.mt0
+ sweep: tran tran0    begin, stop_t=  4.00E-08 #sweeps=4001 cpu clock=  7.80E-02
+ tran: time= 5.1000E-09 tot_iter=      46 conv_iter=      19 cpu clock= 8.00E-02
+ tran: time= 8.6573E-09 tot_iter=      94 conv_iter=      36 cpu clock= 8.20E-02
+ tran: time= 1.2290E-08 tot_iter=     195 conv_iter=      69 cpu clock= 8.50E-02
+ tran: time= 1.6247E-08 tot_iter=     239 conv_iter=      85 cpu clock= 8.70E-02
+ tran: time= 2.0000E-08 tot_iter=     249 conv_iter=      90 cpu clock= 8.70E-02
+ tran: time= 2.4801E-08 tot_iter=     290 conv_iter=     106 cpu clock= 8.90E-02
+ tran: time= 2.8365E-08 tot_iter=     355 conv_iter=     128 cpu clock= 9.20E-02
+ tran: time= 3.2400E-08 tot_iter=     447 conv_iter=     160 cpu clock= 9.50E-02
+ tran: time= 3.6254E-08 tot_iter=     491 conv_iter=     176 cpu clock= 9.60E-02
+ tran: time= 4.0000E-08 tot_iter=     501 conv_iter=     181 cpu clock= 9.60E-02
+ sweep: tran tran0    end,  cpu clock=  9.60E-02 peak memory=        40 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

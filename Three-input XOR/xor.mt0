@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='H-2013.03-SP2 64-BIT'
+.TITLE '***implementation of c xor a xor b***'
+ avgpwr           temper           alter#            
+  5.683e-04         25.0000        1                 

@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='H-2013.03-SP2 64-BIT'
+.TITLE '.option accurate post'
+ charge           totalpower       tphl             tplh              
+ td               temper           alter#            
+ -3.768e-15        9.419e-08        1.622e-11        1.340e-11        
+  1.481e-11         25.0000        1                 

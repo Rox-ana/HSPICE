@@ -1,0 +1,21 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "00:54:12 01/25/2018 "
+* "netlist" "secondadder1.sp "
+* "runtitle" ".option accurate post"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ cin =   0.            
++ cout = 999.6345m       
++ coutp = 142.6453m       
++ j =   2.1204u       
++ vdd =   1.0000        
++ x =   1.0000        
++ xp =   1.6243u       
++ y =   1.0000        
+***   END: Saved Operating Point ***                     
