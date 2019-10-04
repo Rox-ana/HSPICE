@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "14:54:25 05/06/2018 "
+* "netlist" "invcmos.sp "
+* "runtitle" ""
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a0 =   0.            
++ vdd =   1.8000        
++ vout =   1.8000        
+***   END: Saved Operating Point ***                     

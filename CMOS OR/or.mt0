@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='H-2013.03-SP2 64-BIT'
+.TITLE '.option accurate post'
+ tplh_b0ar        tphl_b0af        tplh_a0br        tphl_a0bf         
+ tplh_arbr        temper           alter#            
+  8.945e-10        6.218e-10        9.001e-10        6.167e-10        
+  8.822e-10         25.0000        1                 

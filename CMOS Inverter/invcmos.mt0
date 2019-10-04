@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='H-2013.03-SP2 64-BIT'
+.TITLE ' '
+ t_rise           t_fall           tphl             tplh              
+ charge           energy           temper           alter#            
+  3.796e-11        3.409e-11        1.498e-11        1.611e-11        
+ -4.218e-15        7.593e-15         25.0000        1                 
