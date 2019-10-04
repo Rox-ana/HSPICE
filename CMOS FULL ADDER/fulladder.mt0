@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='H-2013.03-SP2 64-BIT'
+.TITLE '*full adder'
+ tplh             tphl             tpavg            trise             
+ tfall            charge           energy           temper            
+ alter#            
+  1.155e-10        1.443e-10        1.299e-10        2.435e-11        
+  3.763e-11       -1.517e-13        2.731e-13         25.0000         
+ 1                 

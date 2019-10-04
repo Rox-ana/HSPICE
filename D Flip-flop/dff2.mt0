@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='H-2013.03-SP2 64-BIT'
+.TITLE '*the d-ff with a pass transistor in each latch'
+ tph              tpl              tpd              temper            
+ alter#            
+  7.775e-11        1.187e-10        9.822e-11         25.0000         
+ 1                 

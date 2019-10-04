@@ -1,0 +1,23 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "09:33:51 06/26/2017 "
+* "netlist" "dff2.sp "
+* "runtitle" "*the d-ff with a pass transistor in each latch"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ clk =   0.            
++ clkp =   1.8000        
++ d =   1.8000        
++ d1 =   1.8000        
++ d1n =  39.2125n       
++ d1n2 = 873.5495m       
++ d1nn =   1.8000        
++ q = 873.5495m       
++ qp = 873.5495m       
++ vss =   1.8000        
+***   END: Saved Operating Point ***                     

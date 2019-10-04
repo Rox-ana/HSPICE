@@ -1,0 +1,31 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "16:41:16 10/04/2019 "
+* "netlist" "fulladder.sp "
+* "runtitle" "*full adder"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   1.8000        
++ b =   1.8000        
++ c =   1.8000        
++ c1 =  11.8173n       
++ ci =   1.8000        
++ d1 =   3.9391n       
++ d10 =  88.5391n       
++ d2 =   5.9086n       
++ d3 =   1.7659        
++ d4 =   1.7365        
++ d5 =   8.5746f       
++ d6 = 447.0745m       
++ d7 =   1.7808        
++ d8 =   1.6564        
++ d9 =  44.2696n       
++ s =   1.8000        
++ s1 = 132.8087n       
++ vdd =   1.8000        
+***   END: Saved Operating Point ***                     
